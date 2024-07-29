@@ -12,7 +12,7 @@ export default function Artists() {
                         <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
                             Featured Artists
                         </div>
-                        <h2 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
+                        <h2 className="lg:leading-tighter text-3xl text-[#a14e46] font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
                             Meet Our Talented Artists
                         </h2>
                         <Link

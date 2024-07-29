@@ -3,15 +3,15 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow px-4 lg:px-6 h-14 flex items-center">
+        <header className="fixed top-0 left-0 right-0 z-50 bg-[#a14e46] shadow px-4 lg:px-6 h-14 flex items-center">
             <Link
                 href="#"
                 className="flex items-center justify-center"
                 prefetch={false}>
-                <LampIcon className="size-6" />
+                <LampIcon className="size-6 text-white" />
                 <span className="sr-only">Lantern Galleries</span>
             </Link>
-            <nav className="ml-auto flex gap-4 sm:gap-6">
+            <nav className="ml-auto flex gap-4 sm:gap-6 text-white">
                 <Link
                     href="#"
                     className="text-sm font-medium hover:underline underline-offset-4"

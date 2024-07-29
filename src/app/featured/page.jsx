@@ -13,7 +13,7 @@ export default function Featured() {
                         <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
                             Featured Artworks
                         </div>
-                        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-[#a14e46]">
                             Explore Our Curated Collection
                         </h2>
                         <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -43,7 +43,10 @@ export default function Featured() {
                             </div>
                         </CardContent>
                         <CardFooter>
-                            <Button variant="outline" size="sm">
+                            <Button
+                                variant="outline"
+                                size="sm"
+                                className="bg-[#c55a50]">
                                 View
                             </Button>
                         </CardFooter>
@@ -68,7 +71,10 @@ export default function Featured() {
                             </div>
                         </CardContent>
                         <CardFooter>
-                            <Button variant="outline" size="sm">
+                            <Button
+                                variant="outline"
+                                size="sm"
+                                className="bg-[#c55a50]">
                                 View
                             </Button>
                         </CardFooter>
@@ -93,7 +99,10 @@ export default function Featured() {
                             </div>
                         </CardContent>
                         <CardFooter>
-                            <Button variant="outline" size="sm">
+                            <Button
+                                variant="outline"
+                                size="sm"
+                                className="bg-[#c55a50]">
                                 View
                             </Button>
                         </CardFooter>
@@ -118,7 +127,10 @@ export default function Featured() {
                             </div>
                         </CardContent>
                         <CardFooter>
-                            <Button variant="outline" size="sm">
+                            <Button
+                                variant="outline"
+                                size="sm"
+                                className="bg-[#c55a50]">
                                 View
                             </Button>
                         </CardFooter>

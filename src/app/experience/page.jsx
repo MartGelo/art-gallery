@@ -13,7 +13,7 @@ export default function Experience() {
                             <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">
                                 360 Degree Experience
                             </div>
-                            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-[#a14e46]">
                                 Immerse Yourself in the Art
                             </h2>
                             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
